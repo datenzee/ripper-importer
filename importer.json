@@ -1,0 +1,19 @@
+{
+  "id": "datenzee:ripper-importer:0.1.0",
+  "importerId": "ripper-importer",
+  "organizationId": "datenzee",
+  "version": "0.1.0",
+  "name": "Ripper Importer",
+  "description": "Import from ripper file",
+  "license": "Apache-2.0",
+  "metamodelVersion": 1,
+  "allowedPackages": [
+    {
+      "orgId": "datenzee",
+      "kmId": "ripper",
+      "minVersion": null,
+      "maxVersion": null
+    }
+  ],
+  "url": "..."
+}

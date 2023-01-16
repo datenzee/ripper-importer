@@ -1,0 +1,29 @@
+{
+  "name": "ripper-importer",
+  "version": "0.1.0",
+  "description": "Importer for Ripper Ontology",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datenzee/ripper-importer"
+  },
+  "keywords": [],
+  "author": "Jan Slifka",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/datenzee/ripper-importer/issues"
+  },
+  "homepage": "https://github.com/datenzee/ripper-importer",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@ds-wizard/importer-sdk": "^0.3.0-alpha.1"
+  }
+}

@@ -1,6 +1,6 @@
 # Ripper Importer
 
-...
+DSW Importer for importing tensile testing data from the machine to the project based on the knowledge model using [ripper ontology](https://github.com/datenzee/ripper-ontology).
 
 ## License
 

@@ -1,0 +1,30 @@
+Test Name		PLA_10_pct_X.xtas
+Test Mode		Single
+Test Type		Tensile
+Title1			SEC/C_45_GSM_PM1
+Comment1		Comment
+Key Word		
+Product Name		
+Test File Name		PLA_10_pct_X.xtas
+Method File Name	3D_tisk.xmas
+Report Date		03.11.2022
+Test Date		03.11.2022
+Test Mode		Single
+Test Type		Tensile
+Speed			5mm/min
+Shape			Plate
+No of Batches:		1
+Qty/Batch:		1
+
+Elastic			Force 50 - 90 N		439864	kPa
+YP(%FS)_Force		0,10%				N
+Max_Disp_Stroke			25			mm
+Max_Disp_Strain						%
+Max_Force		Calc. at Entire Areas		N
+Break_Force		Last100msec			N
+Max_Stress		Calc. at Entire Areas		kPa
+Break_Stress		Last100msec			kPa
+
+Time							sec
+Force							N
+Stroke							mm

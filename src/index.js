@@ -68,9 +68,11 @@ function processDate(dateString) {
 
 function importFromFile(importer, content) {
     const chapterUuid = importer.getFirstChapterUuid()
+    const projectUuid = importer.getQuestionUuidByAnnotation('rdfType', 'http://purl.org/ripper#Project')
     const testCaseUuid = importer.getQuestionUuidByAnnotation('rdfType', 'http://purl.org/ripper#TestCase')
-    const itemUuid = importer.addItem([chapterUuid, testCaseUuid])
-    const itemPath = [chapterUuid, testCaseUuid, itemUuid]
+    const projectItemUuid = importer.addItem([chapterUuid, projectUuid])
+    const testCaseItemUuid = importer.addItem([chapterUuid, projectUuid, projectItemUuid, testCaseUuid])
+    const itemPath = [chapterUuid, projectUuid, projectItemUuid, testCaseUuid, testCaseItemUuid]
 
     content.split('\n').forEach((line) => {
         const parts = line.split(/\t+/)
